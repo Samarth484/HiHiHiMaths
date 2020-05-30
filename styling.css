@@ -1,12 +1,15 @@
 body{
     font: Arial, Helvetica, sans-serif;
+    /* background-image: url(https://www.topuniversities.com/sites/default/files/guides/images/study_maths.jpg); */
+    /* background-image: url(https://previews.123rf.com/images/kannaa123rf/kannaa123rf1605/kannaa123rf160500024/56661820-abstract-math-number-background-vector-illustration-for-business-design-black-white-colors-random-si.jpg); */
+    background-image: url(https://img.freepik.com/free-vector/math-chalkboard-background_1995-357.jpg?size=626&ext=jpg);
 }
 #container{
     width: 1050px;
    /* border: 1px solid grey; */
     margin: 0 auto;
 }
-   
+
 #header{
     height:100px;
     padding:10px 0;
@@ -14,6 +17,7 @@ body{
 
  #brand{
     float: left;
+    background-color: white;
 }
 
 h1 a{
@@ -87,7 +91,7 @@ ul{
      -o-transition: font-size 0.3s ease;
      -ms-transition: font-size 0.3s ease;
      -moz-transition: font-size 0.3s ease;
-     transition: font-size 0.3s ease;  
+     transition: font-size 0.3s ease;
 }
 
 #menu ul li a:hover, #menu ul li a.active{
@@ -105,7 +109,7 @@ ul{
 #introduction h3{
     font-size: 45px;
     color: orangered;
-    font-weight: normal;   
+    font-weight: normal;
 }
 
 #introduction p{
